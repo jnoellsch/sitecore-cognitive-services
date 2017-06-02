@@ -13,7 +13,7 @@
     {
         public ImageTagger()
         {
-            this.ApiKeys = new SitecoreSettingsManager();
+            this.ApiKeys = new SitecoreSettings();
         }
 
         public IApiKeySettings ApiKeys { get; }
