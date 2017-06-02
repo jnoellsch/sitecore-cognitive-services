@@ -2,11 +2,11 @@
 {
     using System;
 
-    public class SitecoreSettingsManager : IApiKeySettings
+    public class SitecoreSettings : IApiKeySettings
     {
         private const string DefaultValue = "{YOUR_API_KEY}";
 
-        public SitecoreSettingsManager()
+        public SitecoreSettings()
         {
             this.ComputerVision = this.TryGetSetting("CognitiveMedia.ApiKey.ComputerVision");
         }

@@ -9,6 +9,9 @@
     using Sitecore.Events;
     using Sitecore.Resources.Media;
 
+    /// <summary>
+    /// Applies tags and description to media items using Cognitive Services.
+    /// </summary>
     public class ImageTagger
     {
         public ImageTagger()
@@ -27,8 +30,8 @@
 
             // validate
             if (item == null) return;
-            if (this.IsNotMasterDb(item)) return;
-            if (this.IsNotMedia(item)) return;
+            if (item.IsNotMasterDb()) return;
+            if (item.IsNotMedia()) return;
 
             // do work
             Task.Factory.StartNew(() => this.TagAsync(item, args));
@@ -63,9 +66,5 @@
                 this.Log.TagCompleted();
             }
         }
-
-        private bool IsNotMasterDb(Item savedItem) => savedItem.Database.Name != "master";
-
-        private bool IsNotMedia(Item savedItem) => !savedItem.Paths.IsMediaItem;
     }
 }
