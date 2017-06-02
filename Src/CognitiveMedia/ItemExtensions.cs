@@ -3,7 +3,7 @@
     using Sitecore.Data.Items;
 
     /// <summary>
-    /// Extensions methods for <see cref="Item"/>.
+    /// Adds utility methods for <see cref="Item"/>.
     /// </summary>
     public static class ItemExtensions
     {
