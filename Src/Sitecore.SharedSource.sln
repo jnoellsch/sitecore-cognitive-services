@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.SharedSource.CognitiveMedia", "CognitiveMedia\Sitecore.SharedSource.CognitiveMedia.csproj", "{302DBC81-DDD9-4590-96C8-946EE3E50670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4535631-25B6-4F03-8F2D-4760278F849D}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{302DBC81-DDD9-4590-96C8-946EE3E50670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302DBC81-DDD9-4590-96C8-946EE3E50670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302DBC81-DDD9-4590-96C8-946EE3E50670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302DBC81-DDD9-4590-96C8-946EE3E50670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
