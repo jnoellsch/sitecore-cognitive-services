@@ -10,7 +10,7 @@
     using Sitecore.Resources.Media;
 
     /// <summary>
-    /// Applies tags and description to media items using Cognitive Services.
+    /// Applies tags and description to media items using computer vision in cognitive services.
     /// </summary>
     public class ImageTagger
     {

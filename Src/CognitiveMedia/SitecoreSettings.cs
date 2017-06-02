@@ -2,6 +2,9 @@
 {
     using System;
 
+    /// <summary>
+    /// Reads specific settings values from Sitecore &lt;settings&gt; configuration element.
+    /// </summary>
     public class SitecoreSettings : IApiKeySettings
     {
         private const string DefaultValue = "{YOUR_API_KEY}";

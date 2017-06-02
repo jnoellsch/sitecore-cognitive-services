@@ -4,6 +4,9 @@ namespace Sitecore.SharedSource.CognitiveMedia
     using System.Diagnostics;
     using Sitecore.Diagnostics;
 
+    /// <summary>
+    /// Provides logging and telemetry for <see cref="ImageTagger"/>.
+    /// </summary>
     public class ImageTaggerLogger
     {
         protected Stopwatch Stopwatch { get; } = new Stopwatch();
