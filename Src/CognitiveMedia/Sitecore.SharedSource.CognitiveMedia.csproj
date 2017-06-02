@@ -93,8 +93,9 @@
     <Compile Include="ImageTagger.cs" />
     <Compile Include="ImageTaggerLogger.cs" />
     <Compile Include="IApiKeySettings.cs" />
+    <Compile Include="ItemExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SitecoreSettingsManager.cs" />
+    <Compile Include="SitecoreSettings.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
